@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357445B928D74F22000284D1 /* FalavaMusic Document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 357445B828D74F22000284D1 /* FalavaMusic Document.pdf */; };
+		359B1BF328D61E4B00559FDA /* PodCastListen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B1BF228D61E4B00559FDA /* PodCastListen.swift */; };
+		35F5E50728D1E75500DF255C /* PodCastScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5E50628D1E75500DF255C /* PodCastScreen.swift */; };
+		35F5E50A28D1E78C00DF255C /* PodCastListCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5E50828D1E78C00DF255C /* PodCastListCategory.swift */; };
+		35F5E50B28D1E78C00DF255C /* PodCastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5E50928D1E78C00DF255C /* PodCastModel.swift */; };
+		35F5E50D28D1E7A500DF255C /* EpisodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5E50C28D1E7A500DF255C /* EpisodeModel.swift */; };
+		35F5E51428D1E7C000DF255C /* PodCastListCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5E51028D1E7C000DF255C /* PodCastListCategoryView.swift */; };
+		35F5E51928D1E7D500DF255C /* EpisodeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F5E51728D1E7D500DF255C /* EpisodeListView.swift */; };
+		6536209C28D57F500015F9AF /* SoundVisualize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6536209B28D57F500015F9AF /* SoundVisualize.swift */; };
+		656C2546291FA15100759BAA /* HomehUb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C2545291FA15100759BAA /* HomehUb.swift */; };
+		656C2548291FA15900759BAA /* NewMusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C2547291FA15900759BAA /* NewMusicModel.swift */; };
+		656E814128D4AC6F0019EF8A /* Top100.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E814028D4AC6F0019EF8A /* Top100.swift */; };
+		657F81C028CC645D0033BF13 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 657F81BF28CC645D0033BF13 /* Lottie */; };
+		657F81C228CC64750033BF13 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 657F81C128CC64750033BF13 /* FirebaseAuth */; };
+		657F81C428CC657B0033BF13 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 657F81C328CC657B0033BF13 /* FirebaseFirestore */; };
+		657F81C628CC65870033BF13 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 657F81C528CC65870033BF13 /* FirebaseDatabase */; };
+		657F81C828CC65930033BF13 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 657F81C728CC65930033BF13 /* FirebaseFirestoreSwift */; };
+		657F81CA28CC659C0033BF13 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 657F81C928CC659C0033BF13 /* FirebaseStorage */; };
+		657F81CC28CC6D6F0033BF13 /* LyrickModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657F81CB28CC6D6F0033BF13 /* LyrickModel.swift */; };
+		657F81CE28CC708B0033BF13 /* MusicLyrickCpm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657F81CD28CC708B0033BF13 /* MusicLyrickCpm.swift */; };
+		65871EBD28D1A72F00AADD2E /* StaggeredGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65871EBC28D1A72F00AADD2E /* StaggeredGrid.swift */; };
+		904BA68128D5A66C0020FBFD /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BA68028D5A66C0020FBFD /* SnapCarousel.swift */; };
+		906324B828D1D6230069DE23 /* ItemDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906324B728D1D6230069DE23 /* ItemDisplay.swift */; };
+		90A62CD328D0908E00EB784C /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A62CD128D0908E00EB784C /* SearchModel.swift */; };
+		90A62CD428D0908E00EB784C /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A62CD228D0908E00EB784C /* SearchResults.swift */; };
+		90A62CD828D090B200EB784C /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A62CD628D090B200EB784C /* SearchController.swift */; };
+		90A62CDE28D090BF00EB784C /* TopResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A62CD928D090BF00EB784C /* TopResult.swift */; };
+		90A62CDF28D090BF00EB784C /* ScrollSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A62CDA28D090BF00EB784C /* ScrollSearch.swift */; };
+		90A62CE128D090BF00EB784C /* SearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A62CDC28D090BF00EB784C /* SearchResultView.swift */; };
+		90A62CE228D090BF00EB784C /* SuggestedRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A62CDD28D090BF00EB784C /* SuggestedRow.swift */; };
+		C667A3B628D226AB00F68EDC /* ApiLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667A3B528D226AB00F68EDC /* ApiLogin.swift */; };
+		C667A3B828D22C7B00F68EDC /* OnStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C667A3B728D22C7B00F68EDC /* OnStart.swift */; };
+		C66A6E6428C797D50088FD85 /* CustomMusicScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66A6E6328C797D50088FD85 /* CustomMusicScroll.swift */; };
+		C6A026F12893A58700992E6E /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A026F02893A58700992E6E /* AlbumModel.swift */; };
+		C6A2C4682894D50800B56717 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2C4672894D50800B56717 /* SearchScreen.swift */; };
+		C6A2C46A2894D51600B56717 /* AlbumScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2C4692894D51600B56717 /* AlbumScreen.swift */; };
+		C6A2C4722895315C00B56717 /* ListenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A2C4712895315C00B56717 /* ListenModel.swift */; };
+		C6A7E2B72894188300321F8A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7E2B62894188300321F8A /* SplashScreen.swift */; };
+		C6ADEC6B28CEF60700797F82 /* StikyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6ADEC6A28CEF60700797F82 /* StikyHeader.swift */; };
+		C6AE7B102897C805004AA971 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AE7B0F2897C805004AA971 /* ViewModel.swift */; };
+		C6B323B528C9D1CC0060F289 /* ResizableLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B323B428C9D1CC0060F289 /* ResizableLottieView.swift */; };
+		C6B323BC28C9D2220060F289 /* PodCast.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B323B728C9D2220060F289 /* PodCast.json */; };
+		C6B323BE28C9D2220060F289 /* Search.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B323B928C9D2220060F289 /* Search.json */; };
+		C6B323BF28C9D2220060F289 /* Album.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B323BA28C9D2220060F289 /* Album.json */; };
+		C6B323C028C9D2220060F289 /* Home.json in Resources */ = {isa = PBXBuildFile; fileRef = C6B323BB28C9D2220060F289 /* Home.json */; };
+		C6B3C0F728919B7900221BA4 /* KimusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C0F628919B7900221BA4 /* KimusicApp.swift */; };
+		C6B3C0FB28919B7D00221BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B3C0FA28919B7D00221BA4 /* Assets.xcassets */; };
+		C6B3C0FE28919B7D00221BA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6B3C0FD28919B7D00221BA4 /* Preview Assets.xcassets */; };
+		C6B3C10628919C6900221BA4 /* ApiHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C10528919C6900221BA4 /* ApiHome.swift */; };
+		C6B3C10928919C8100221BA4 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C10828919C8100221BA4 /* HomeModel.swift */; };
+		C6B3C10C28919CCE00221BA4 /* HashLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C10B28919CCE00221BA4 /* HashLib.swift */; };
+		C6B3C10E28919D0300221BA4 /* ZingStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C10D28919D0300221BA4 /* ZingStruct.swift */; };
+		C6B3C11128919D9100221BA4 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C11028919D9100221BA4 /* MainScreen.swift */; };
+		C6B3C11528919EF500221BA4 /* HomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C11428919EF500221BA4 /* HomeViews.swift */; };
+		C6B3C1262891A30100221BA4 /* PaperViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B3C1252891A30100221BA4 /* PaperViews.swift */; };
+		E71BE88928BF467D00C43EA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E71BE88828BF467D00C43EA4 /* GoogleService-Info.plist */; };
+		E71BE88E28BF54DD00C43EA4 /* LoginSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71BE88D28BF54DD00C43EA4 /* LoginSignup.swift */; };
+		E71BE89028BF59F800C43EA4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71BE88F28BF59F800C43EA4 /* User.swift */; };
+		E71BE89228BF63C100C43EA4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71BE89128BF63C100C43EA4 /* LoginView.swift */; };
+		E797692828D5A66D00B758FF /* QueryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E797692728D5A66D00B758FF /* QueryTest.swift */; };
+		E7EB736428D33D99002B7D6D /* CookieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB736328D33D99002B7D6D /* CookieModel.swift */; };
+		E7EB736628D33FAE002B7D6D /* CookieFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EB736528D33FAE002B7D6D /* CookieFetch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6AE7B172897D200004AA971 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		357445B828D74F22000284D1 /* FalavaMusic Document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "FalavaMusic Document.pdf"; sourceTree = "<group>"; };
+		359B1BF228D61E4B00559FDA /* PodCastListen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodCastListen.swift; sourceTree = "<group>"; };
+		35F5E50628D1E75500DF255C /* PodCastScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodCastScreen.swift; sourceTree = "<group>"; };
+		35F5E50828D1E78C00DF255C /* PodCastListCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodCastListCategory.swift; sourceTree = "<group>"; };
+		35F5E50928D1E78C00DF255C /* PodCastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodCastModel.swift; sourceTree = "<group>"; };
+		35F5E50C28D1E7A500DF255C /* EpisodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeModel.swift; sourceTree = "<group>"; };
+		35F5E51028D1E7C000DF255C /* PodCastListCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodCastListCategoryView.swift; sourceTree = "<group>"; };
+		35F5E51728D1E7D500DF255C /* EpisodeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeListView.swift; sourceTree = "<group>"; };
+		6536209B28D57F500015F9AF /* SoundVisualize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundVisualize.swift; sourceTree = "<group>"; };
+		656C2545291FA15100759BAA /* HomehUb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomehUb.swift; sourceTree = "<group>"; };
+		656C2547291FA15900759BAA /* NewMusicModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMusicModel.swift; sourceTree = "<group>"; };
+		656E814028D4AC6F0019EF8A /* Top100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top100.swift; sourceTree = "<group>"; };
+		657F81CB28CC6D6F0033BF13 /* LyrickModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyrickModel.swift; sourceTree = "<group>"; };
+		657F81CD28CC708B0033BF13 /* MusicLyrickCpm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicLyrickCpm.swift; sourceTree = "<group>"; };
+		65871EBC28D1A72F00AADD2E /* StaggeredGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredGrid.swift; sourceTree = "<group>"; };
+		904BA68028D5A66C0020FBFD /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		906324B728D1D6230069DE23 /* ItemDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDisplay.swift; sourceTree = "<group>"; };
+		90A62CD128D0908E00EB784C /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		90A62CD228D0908E00EB784C /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		90A62CD628D090B200EB784C /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		90A62CD928D090BF00EB784C /* TopResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopResult.swift; sourceTree = "<group>"; };
+		90A62CDA28D090BF00EB784C /* ScrollSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollSearch.swift; sourceTree = "<group>"; };
+		90A62CDC28D090BF00EB784C /* SearchResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultView.swift; sourceTree = "<group>"; };
+		90A62CDD28D090BF00EB784C /* SuggestedRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedRow.swift; sourceTree = "<group>"; };
+		C667A3B528D226AB00F68EDC /* ApiLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiLogin.swift; sourceTree = "<group>"; };
+		C667A3B728D22C7B00F68EDC /* OnStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnStart.swift; sourceTree = "<group>"; };
+		C66A6E6328C797D50088FD85 /* CustomMusicScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMusicScroll.swift; sourceTree = "<group>"; };
+		C6A026F02893A58700992E6E /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		C6A2C4672894D50800B56717 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		C6A2C4692894D51600B56717 /* AlbumScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumScreen.swift; sourceTree = "<group>"; };
+		C6A2C4712895315C00B56717 /* ListenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenModel.swift; sourceTree = "<group>"; };
+		C6A7E2B62894188300321F8A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		C6ADEC6A28CEF60700797F82 /* StikyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StikyHeader.swift; sourceTree = "<group>"; };
+		C6AE7B0F2897C805004AA971 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C6B323B428C9D1CC0060F289 /* ResizableLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableLottieView.swift; sourceTree = "<group>"; };
+		C6B323B728C9D2220060F289 /* PodCast.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PodCast.json; sourceTree = "<group>"; };
+		C6B323B928C9D2220060F289 /* Search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Search.json; sourceTree = "<group>"; };
+		C6B323BA28C9D2220060F289 /* Album.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Album.json; sourceTree = "<group>"; };
+		C6B323BB28C9D2220060F289 /* Home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Home.json; sourceTree = "<group>"; };
+		C6B3C0F328919B7900221BA4 /* Kimusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kimusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B3C0F628919B7900221BA4 /* KimusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KimusicApp.swift; sourceTree = "<group>"; };
+		C6B3C0FA28919B7D00221BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6B3C0FD28919B7D00221BA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6B3C10528919C6900221BA4 /* ApiHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHome.swift; sourceTree = "<group>"; };
+		C6B3C10828919C8100221BA4 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		C6B3C10B28919CCE00221BA4 /* HashLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashLib.swift; sourceTree = "<group>"; };
+		C6B3C10D28919D0300221BA4 /* ZingStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZingStruct.swift; sourceTree = "<group>"; };
+		C6B3C11028919D9100221BA4 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		C6B3C11228919E6F00221BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C6B3C11428919EF500221BA4 /* HomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViews.swift; sourceTree = "<group>"; };
+		C6B3C1252891A30100221BA4 /* PaperViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperViews.swift; sourceTree = "<group>"; };
+		E71BE88828BF467D00C43EA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E71BE88D28BF54DD00C43EA4 /* LoginSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignup.swift; sourceTree = "<group>"; };
+		E71BE88F28BF59F800C43EA4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E71BE89128BF63C100C43EA4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E797692728D5A66D00B758FF /* QueryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryTest.swift; sourceTree = "<group>"; };
+		E7EB736328D33D99002B7D6D /* CookieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieModel.swift; sourceTree = "<group>"; };
+		E7EB736528D33FAE002B7D6D /* CookieFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieFetch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6B3C0F028919B7900221BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657F81C828CC65930033BF13 /* FirebaseFirestoreSwift in Frameworks */,
+				657F81C028CC645D0033BF13 /* Lottie in Frameworks */,
+				657F81C228CC64750033BF13 /* FirebaseAuth in Frameworks */,
+				657F81C628CC65870033BF13 /* FirebaseDatabase in Frameworks */,
+				657F81C428CC657B0033BF13 /* FirebaseFirestore in Frameworks */,
+				657F81CA28CC659C0033BF13 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6536209A28D57F370015F9AF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C6B3C11228919E6F00221BA4 /* Info.plist */,
+				E71BE88828BF467D00C43EA4 /* GoogleService-Info.plist */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		9008031128BF7148000AB2B8 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				90A62CD628D090B200EB784C /* SearchController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		90098CCB28C615140085CD04 /* SearchScreenComponents */ = {
+			isa = PBXGroup;
+			children = (
+				90A62CDA28D090BF00EB784C /* ScrollSearch.swift */,
+				90A62CDC28D090BF00EB784C /* SearchResultView.swift */,
+				90A62CDD28D090BF00EB784C /* SuggestedRow.swift */,
+				90A62CD928D090BF00EB784C /* TopResult.swift */,
+				906324B728D1D6230069DE23 /* ItemDisplay.swift */,
+			);
+			path = SearchScreenComponents;
+			sourceTree = "<group>";
+		};
+		90A62CCE28D0907000EB784C /* SearchModels */ = {
+			isa = PBXGroup;
+			children = (
+				90A62CD128D0908E00EB784C /* SearchModel.swift */,
+				90A62CD228D0908E00EB784C /* SearchResults.swift */,
+			);
+			path = SearchModels;
+			sourceTree = "<group>";
+		};
+		C6B323B628C9D1E70060F289 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				C6B323BA28C9D2220060F289 /* Album.json */,
+				C6B323BB28C9D2220060F289 /* Home.json */,
+				C6B323B728C9D2220060F289 /* PodCast.json */,
+				C6B323B928C9D2220060F289 /* Search.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		C6B3C0EA28919B7900221BA4 = {
+			isa = PBXGroup;
+			children = (
+				C6B3C0F528919B7900221BA4 /* Kimusic */,
+				C6B3C0F428919B7900221BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6B3C0F428919B7900221BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B3C0F328919B7900221BA4 /* Kimusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6B3C0F528919B7900221BA4 /* Kimusic */ = {
+			isa = PBXGroup;
+			children = (
+				357445B828D74F22000284D1 /* FalavaMusic Document.pdf */,
+				6536209A28D57F370015F9AF /* Service */,
+				C6B323B628C9D1E70060F289 /* Animation */,
+				C6B3C11C2891A0ED00221BA4 /* Components */,
+				E71BE88728BF451E00C43EA4 /* Firestore */,
+				C6B3C11328919EE400221BA4 /* Screens */,
+				C6B3C10F28919D8000221BA4 /* Views */,
+				C6B3C10428919C5200221BA4 /* Controller */,
+				C6B3C0F628919B7900221BA4 /* KimusicApp.swift */,
+				C6B3C0FA28919B7D00221BA4 /* Assets.xcassets */,
+				C6B3C0FC28919B7D00221BA4 /* Preview Content */,
+			);
+			path = Kimusic;
+			sourceTree = "<group>";
+		};
+		C6B3C0FC28919B7D00221BA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6B3C0FD28919B7D00221BA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C6B3C10428919C5200221BA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9008031128BF7148000AB2B8 /* Search */,
+				C6B3C10A28919CBC00221BA4 /* Security */,
+				C6B3C10728919C7000221BA4 /* Model */,
+				C6B3C10528919C6900221BA4 /* ApiHome.swift */,
+				C667A3B528D226AB00F68EDC /* ApiLogin.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6B3C10728919C7000221BA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				656C2545291FA15100759BAA /* HomehUb.swift */,
+				656C2547291FA15900759BAA /* NewMusicModel.swift */,
+				35F5E50C28D1E7A500DF255C /* EpisodeModel.swift */,
+				35F5E50828D1E78C00DF255C /* PodCastListCategory.swift */,
+				35F5E50928D1E78C00DF255C /* PodCastModel.swift */,
+				90A62CCE28D0907000EB784C /* SearchModels */,
+				C6B3C10828919C8100221BA4 /* HomeModel.swift */,
+				C6A026F02893A58700992E6E /* AlbumModel.swift */,
+				C6A2C4712895315C00B56717 /* ListenModel.swift */,
+				C6AE7B0F2897C805004AA971 /* ViewModel.swift */,
+				657F81CB28CC6D6F0033BF13 /* LyrickModel.swift */,
+				656E814028D4AC6F0019EF8A /* Top100.swift */,
+				359B1BF228D61E4B00559FDA /* PodCastListen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6B3C10A28919CBC00221BA4 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				C6B3C10B28919CCE00221BA4 /* HashLib.swift */,
+				C6B3C10D28919D0300221BA4 /* ZingStruct.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		C6B3C10F28919D8000221BA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				35F5E51728D1E7D500DF255C /* EpisodeListView.swift */,
+				35F5E51028D1E7C000DF255C /* PodCastListCategoryView.swift */,
+				C6B3C11428919EF500221BA4 /* HomeViews.swift */,
+				E71BE89128BF63C100C43EA4 /* LoginView.swift */,
+				C667A3B728D22C7B00F68EDC /* OnStart.swift */,
+				E797692728D5A66D00B758FF /* QueryTest.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6B3C11328919EE400221BA4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				35F5E50628D1E75500DF255C /* PodCastScreen.swift */,
+				90098CCB28C615140085CD04 /* SearchScreenComponents */,
+				C6A7E2B62894188300321F8A /* SplashScreen.swift */,
+				C6B3C11028919D9100221BA4 /* MainScreen.swift */,
+				C6A2C4672894D50800B56717 /* SearchScreen.swift */,
+				C6A2C4692894D51600B56717 /* AlbumScreen.swift */,
+				C6ADEC6A28CEF60700797F82 /* StikyHeader.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C6B3C11C2891A0ED00221BA4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C6B3C1252891A30100221BA4 /* PaperViews.swift */,
+				C66A6E6328C797D50088FD85 /* CustomMusicScroll.swift */,
+				C6B323B428C9D1CC0060F289 /* ResizableLottieView.swift */,
+				657F81CD28CC708B0033BF13 /* MusicLyrickCpm.swift */,
+				65871EBC28D1A72F00AADD2E /* StaggeredGrid.swift */,
+				6536209B28D57F500015F9AF /* SoundVisualize.swift */,
+				904BA68028D5A66C0020FBFD /* SnapCarousel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E71BE88728BF451E00C43EA4 /* Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				E71BE88D28BF54DD00C43EA4 /* LoginSignup.swift */,
+				E71BE88F28BF59F800C43EA4 /* User.swift */,
+				E7EB736328D33D99002B7D6D /* CookieModel.swift */,
+				E7EB736528D33FAE002B7D6D /* CookieFetch.swift */,
+			);
+			path = Firestore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6B3C0F228919B7900221BA4 /* Kimusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6B3C10128919B7D00221BA4 /* Build configuration list for PBXNativeTarget "Kimusic" */;
+			buildPhases = (
+				C6B3C0EF28919B7900221BA4 /* Sources */,
+				C6B3C0F028919B7900221BA4 /* Frameworks */,
+				C6B3C0F128919B7900221BA4 /* Resources */,
+				C6AE7B172897D200004AA971 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kimusic;
+			packageProductDependencies = (
+				657F81BF28CC645D0033BF13 /* Lottie */,
+				657F81C128CC64750033BF13 /* FirebaseAuth */,
+				657F81C328CC657B0033BF13 /* FirebaseFirestore */,
+				657F81C528CC65870033BF13 /* FirebaseDatabase */,
+				657F81C728CC65930033BF13 /* FirebaseFirestoreSwift */,
+				657F81C928CC659C0033BF13 /* FirebaseStorage */,
+			);
+			productName = Kimusic;
+			productReference = C6B3C0F328919B7900221BA4 /* Kimusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6B3C0EB28919B7900221BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C6B3C0F228919B7900221BA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C6B3C0EE28919B7900221BA4 /* Build configuration list for PBXProject "Kimusic" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6B3C0EA28919B7900221BA4;
+			packageReferences = (
+				C61EC7FD28992F8C0076A052 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E71BE87228BF44F800C43EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C6B3C0F428919B7900221BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6B3C0F228919B7900221BA4 /* Kimusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6B3C0F128919B7900221BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B3C0FE28919B7D00221BA4 /* Preview Assets.xcassets in Resources */,
+				E71BE88928BF467D00C43EA4 /* GoogleService-Info.plist in Resources */,
+				C6B323C028C9D2220060F289 /* Home.json in Resources */,
+				357445B928D74F22000284D1 /* FalavaMusic Document.pdf in Resources */,
+				C6B323BC28C9D2220060F289 /* PodCast.json in Resources */,
+				C6B323BF28C9D2220060F289 /* Album.json in Resources */,
+				C6B3C0FB28919B7D00221BA4 /* Assets.xcassets in Resources */,
+				C6B323BE28C9D2220060F289 /* Search.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6B3C0EF28919B7900221BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F5E50728D1E75500DF255C /* PodCastScreen.swift in Sources */,
+				E71BE88E28BF54DD00C43EA4 /* LoginSignup.swift in Sources */,
+				90A62CD828D090B200EB784C /* SearchController.swift in Sources */,
+				E71BE89228BF63C100C43EA4 /* LoginView.swift in Sources */,
+				6536209C28D57F500015F9AF /* SoundVisualize.swift in Sources */,
+				90A62CD328D0908E00EB784C /* SearchModel.swift in Sources */,
+				C6B3C10928919C8100221BA4 /* HomeModel.swift in Sources */,
+				C6AE7B102897C805004AA971 /* ViewModel.swift in Sources */,
+				35F5E50B28D1E78C00DF255C /* PodCastModel.swift in Sources */,
+				C6B3C11528919EF500221BA4 /* HomeViews.swift in Sources */,
+				35F5E51428D1E7C000DF255C /* PodCastListCategoryView.swift in Sources */,
+				C6A026F12893A58700992E6E /* AlbumModel.swift in Sources */,
+				35F5E50A28D1E78C00DF255C /* PodCastListCategory.swift in Sources */,
+				C6ADEC6B28CEF60700797F82 /* StikyHeader.swift in Sources */,
+				90A62CDE28D090BF00EB784C /* TopResult.swift in Sources */,
+				C667A3B628D226AB00F68EDC /* ApiLogin.swift in Sources */,
+				657F81CC28CC6D6F0033BF13 /* LyrickModel.swift in Sources */,
+				65871EBD28D1A72F00AADD2E /* StaggeredGrid.swift in Sources */,
+				657F81CE28CC708B0033BF13 /* MusicLyrickCpm.swift in Sources */,
+				C6B3C11128919D9100221BA4 /* MainScreen.swift in Sources */,
+				C6A2C4682894D50800B56717 /* SearchScreen.swift in Sources */,
+				C6B3C10C28919CCE00221BA4 /* HashLib.swift in Sources */,
+				E7EB736628D33FAE002B7D6D /* CookieFetch.swift in Sources */,
+				90A62CDF28D090BF00EB784C /* ScrollSearch.swift in Sources */,
+				C6A2C4722895315C00B56717 /* ListenModel.swift in Sources */,
+				656E814128D4AC6F0019EF8A /* Top100.swift in Sources */,
+				C667A3B828D22C7B00F68EDC /* OnStart.swift in Sources */,
+				C6B3C1262891A30100221BA4 /* PaperViews.swift in Sources */,
+				35F5E50D28D1E7A500DF255C /* EpisodeModel.swift in Sources */,
+				C6B3C10628919C6900221BA4 /* ApiHome.swift in Sources */,
+				E71BE89028BF59F800C43EA4 /* User.swift in Sources */,
+				904BA68128D5A66C0020FBFD /* SnapCarousel.swift in Sources */,
+				656C2546291FA15100759BAA /* HomehUb.swift in Sources */,
+				90A62CE228D090BF00EB784C /* SuggestedRow.swift in Sources */,
+				90A62CD428D0908E00EB784C /* SearchResults.swift in Sources */,
+				C6A7E2B72894188300321F8A /* SplashScreen.swift in Sources */,
+				E797692828D5A66D00B758FF /* QueryTest.swift in Sources */,
+				C6B3C10E28919D0300221BA4 /* ZingStruct.swift in Sources */,
+				C6A2C46A2894D51600B56717 /* AlbumScreen.swift in Sources */,
+				359B1BF328D61E4B00559FDA /* PodCastListen.swift in Sources */,
+				C6B3C0F728919B7900221BA4 /* KimusicApp.swift in Sources */,
+				90A62CE128D090BF00EB784C /* SearchResultView.swift in Sources */,
+				656C2548291FA15900759BAA /* NewMusicModel.swift in Sources */,
+				35F5E51928D1E7D500DF255C /* EpisodeListView.swift in Sources */,
+				E7EB736428D33D99002B7D6D /* CookieModel.swift in Sources */,
+				906324B828D1D6230069DE23 /* ItemDisplay.swift in Sources */,
+				C6B323B528C9D1CC0060F289 /* ResizableLottieView.swift in Sources */,
+				C66A6E6428C797D50088FD85 /* CustomMusicScroll.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6B3C0FF28919B7D00221BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6B3C10028919B7D00221BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6B3C10228919B7D00221BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kimusic/Preview Content\"";
+				DEVELOPMENT_TEAM = JRCBGGWLJ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kimusic/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We need to download Your music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.entertaiment.Kimusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C6B3C10328919B7D00221BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kimusic/Preview Content\"";
+				DEVELOPMENT_TEAM = JRCBGGWLJ4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kimusic/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We need to download Your music";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rmit.entertaiment.Kimusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6B3C0EE28919B7900221BA4 /* Build configuration list for PBXProject "Kimusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B3C0FF28919B7D00221BA4 /* Debug */,
+				C6B3C10028919B7D00221BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6B3C10128919B7D00221BA4 /* Build configuration list for PBXNativeTarget "Kimusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6B3C10228919B7D00221BA4 /* Debug */,
+				C6B3C10328919B7D00221BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C61EC7FD28992F8C0076A052 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		E71BE87228BF44F800C43EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		657F81BF28CC645D0033BF13 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C61EC7FD28992F8C0076A052 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		657F81C128CC64750033BF13 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E71BE87228BF44F800C43EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		657F81C328CC657B0033BF13 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E71BE87228BF44F800C43EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		657F81C528CC65870033BF13 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E71BE87228BF44F800C43EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		657F81C728CC65930033BF13 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E71BE87228BF44F800C43EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		657F81C928CC659C0033BF13 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E71BE87228BF44F800C43EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C6B3C0EB28919B7900221BA4 /* Project object */;
+}
